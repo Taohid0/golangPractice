@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cb41e13-30f0-49ae-84bb-91d33b9d5b07" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/constants.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for loop.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,11 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="variables.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="variables.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/variables.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="261">
+              <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -34,8 +34,20 @@
       <file leaf-file-name="constants.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/constants.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="153">
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+              <folding>
+                <element signature="e#14#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="for loop.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/for loop.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -60,6 +72,7 @@
         <option value="$PROJECT_DIR$/mapPractice.go" />
         <option value="$PROJECT_DIR$/variables.go" />
         <option value="$PROJECT_DIR$/constants.go" />
+        <option value="$PROJECT_DIR$/for loop.go" />
       </list>
     </option>
   </component>
@@ -75,7 +88,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="21" />
     <option name="y" value="90" />
-    <option name="width" value="935" />
+    <option name="width" value="820" />
     <option name="height" value="704" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -120,13 +133,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build constants.go">
+  <component name="RunManager" selected="Go Build.go build for loop.go">
     <configuration name="go build constants.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goPractice" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/constants.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build for loop.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goPractice" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/for loop.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="go build hello_world.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -158,9 +179,11 @@
       <item itemvalue="Go Build.go build mapPractice.go" />
       <item itemvalue="Go Build.go build variables.go" />
       <item itemvalue="Go Build.go build constants.go" />
+      <item itemvalue="Go Build.go build for loop.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build for loop.go" />
         <item itemvalue="Go Build.go build constants.go" />
         <item itemvalue="Go Build.go build variables.go" />
         <item itemvalue="Go Build.go build mapPractice.go" />
@@ -169,15 +192,15 @@
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-26" y="187" width="748" height="563" extended-state="0" />
+    <frame x="17" y="72" width="656" height="563" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19891009" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22741432" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.12938596" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40350878" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -221,17 +244,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/constants.go">
+    <entry file="file://$PROJECT_DIR$/variables.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="261">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/variables.go">
+    <entry file="file://$PROJECT_DIR$/constants.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="153">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/for loop.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
