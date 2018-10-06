@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cb41e13-30f0-49ae-84bb-91d33b9d5b07" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/if-else.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrays.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,11 +53,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="if-else.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="if-else.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/if-else.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="187">
               <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arrays.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/arrays.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -84,6 +93,7 @@
         <option value="$PROJECT_DIR$/constants.go" />
         <option value="$PROJECT_DIR$/for loop.go" />
         <option value="$PROJECT_DIR$/if-else.go" />
+        <option value="$PROJECT_DIR$/arrays.go" />
       </list>
     </option>
   </component>
@@ -97,10 +107,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="750" />
-    <option name="y" value="81" />
-    <option name="width" value="820" />
-    <option name="height" value="704" />
+    <option name="x" value="51" />
+    <option name="y" value="117" />
+    <option name="width" value="857" />
+    <option name="height" value="888" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -144,7 +154,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build if-else.go">
+  <component name="RunManager" selected="Go Build.go build arrays.go">
+    <configuration name="go build arrays.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goPractice" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/arrays.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
     <configuration name="go build constants.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goPractice" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -169,14 +187,6 @@
       <filePath value="$PROJECT_DIR$/if-else.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build mapPractice.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goPractice" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/mapPractice.go" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
     <configuration name="go build variables.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goPractice" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -186,32 +196,32 @@
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build mapPractice.go" />
       <item itemvalue="Go Build.go build variables.go" />
       <item itemvalue="Go Build.go build constants.go" />
       <item itemvalue="Go Build.go build for loop.go" />
       <item itemvalue="Go Build.go build if-else.go" />
+      <item itemvalue="Go Build.go build arrays.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build arrays.go" />
         <item itemvalue="Go Build.go build if-else.go" />
         <item itemvalue="Go Build.go build for loop.go" />
         <item itemvalue="Go Build.go build constants.go" />
         <item itemvalue="Go Build.go build variables.go" />
-        <item itemvalue="Go Build.go build mapPractice.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="600" y="65" width="656" height="563" extended-state="0" />
+    <frame x="41" y="94" width="685" height="710" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22741432" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2175857" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40350878" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19402985" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -281,8 +291,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/if-else.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="187">
           <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arrays.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
