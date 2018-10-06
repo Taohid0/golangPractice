@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cb41e13-30f0-49ae-84bb-91d33b9d5b07" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/maps.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/range.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -80,11 +79,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="maps.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="maps.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/maps.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="340">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="range.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/range.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -114,6 +122,7 @@
         <option value="$PROJECT_DIR$/arrays.go" />
         <option value="$PROJECT_DIR$/slices.go" />
         <option value="$PROJECT_DIR$/maps.go" />
+        <option value="$PROJECT_DIR$/range.go" />
       </list>
     </option>
   </component>
@@ -174,21 +183,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build maps.go">
+  <component name="RunManager" selected="Go Build.go build range.go">
     <configuration name="go build arrays.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goPractice" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/arrays.go" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
-    <configuration name="go build for loop.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goPractice" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/for loop.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="go build if-else.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -207,6 +208,14 @@
       <filePath value="$PROJECT_DIR$/maps.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
+    <configuration name="go build range.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goPractice" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/range.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
     <configuration name="go build slices.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goPractice" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -216,19 +225,19 @@
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build for loop.go" />
       <item itemvalue="Go Build.go build if-else.go" />
       <item itemvalue="Go Build.go build arrays.go" />
       <item itemvalue="Go Build.go build slices.go" />
       <item itemvalue="Go Build.go build maps.go" />
+      <item itemvalue="Go Build.go build range.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build range.go" />
         <item itemvalue="Go Build.go build maps.go" />
         <item itemvalue="Go Build.go build slices.go" />
         <item itemvalue="Go Build.go build arrays.go" />
         <item itemvalue="Go Build.go build if-else.go" />
-        <item itemvalue="Go Build.go build for loop.go" />
       </list>
     </recent_temporary>
   </component>
@@ -332,8 +341,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/maps.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="340">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/range.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="12" />
         </state>
       </provider>
     </entry>
