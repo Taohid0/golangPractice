@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cb41e13-30f0-49ae-84bb-91d33b9d5b07" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/slices.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,11 +71,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slices.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="slices.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slices.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="367">
               <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maps.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/maps.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -104,6 +113,7 @@
         <option value="$PROJECT_DIR$/if-else.go" />
         <option value="$PROJECT_DIR$/arrays.go" />
         <option value="$PROJECT_DIR$/slices.go" />
+        <option value="$PROJECT_DIR$/maps.go" />
       </list>
     </option>
   </component>
@@ -116,7 +126,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="51" />
     <option name="y" value="117" />
     <option name="width" value="857" />
@@ -164,21 +174,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build slices.go">
+  <component name="RunManager" selected="Go Build.go build maps.go">
     <configuration name="go build arrays.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goPractice" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/arrays.go" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
-    <configuration name="go build constants.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goPractice" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/constants.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="go build for loop.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -197,6 +199,14 @@
       <filePath value="$PROJECT_DIR$/if-else.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
+    <configuration name="go build maps.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goPractice" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/maps.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
     <configuration name="go build slices.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goPractice" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -206,24 +216,24 @@
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build constants.go" />
       <item itemvalue="Go Build.go build for loop.go" />
       <item itemvalue="Go Build.go build if-else.go" />
       <item itemvalue="Go Build.go build arrays.go" />
       <item itemvalue="Go Build.go build slices.go" />
+      <item itemvalue="Go Build.go build maps.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build maps.go" />
         <item itemvalue="Go Build.go build slices.go" />
         <item itemvalue="Go Build.go build arrays.go" />
         <item itemvalue="Go Build.go build if-else.go" />
         <item itemvalue="Go Build.go build for loop.go" />
-        <item itemvalue="Go Build.go build constants.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="94" width="685" height="710" extended-state="1" />
+    <frame x="41" y="94" width="685" height="710" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2175857" />
@@ -317,6 +327,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
           <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maps.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
         </state>
       </provider>
     </entry>
