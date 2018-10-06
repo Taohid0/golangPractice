@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cb41e13-30f0-49ae-84bb-91d33b9d5b07" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/range.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -88,11 +88,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="range.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="range.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/range.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="12" />
+            <state relative-caret-position="238">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="function.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/function.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -123,6 +132,7 @@
         <option value="$PROJECT_DIR$/slices.go" />
         <option value="$PROJECT_DIR$/maps.go" />
         <option value="$PROJECT_DIR$/range.go" />
+        <option value="$PROJECT_DIR$/function.go" />
       </list>
     </option>
   </component>
@@ -348,8 +358,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/range.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="12" />
+        <state relative-caret-position="238">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
         </state>
       </provider>
     </entry>
