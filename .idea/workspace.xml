@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cb41e13-30f0-49ae-84bb-91d33b9d5b07" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +25,17 @@
       <file leaf-file-name="variables.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/variables.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
+            <state relative-caret-position="278">
               <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="constants.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/constants.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -52,6 +59,7 @@
         <option value="$PROJECT_DIR$/hello_world.go" />
         <option value="$PROJECT_DIR$/mapPractice.go" />
         <option value="$PROJECT_DIR$/variables.go" />
+        <option value="$PROJECT_DIR$/constants.go" />
       </list>
     </option>
   </component>
@@ -65,10 +73,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-42" />
-    <option name="y" value="338" />
+    <option name="x" value="21" />
+    <option name="y" value="90" />
     <option name="width" value="935" />
-    <option name="height" value="663" />
+    <option name="height" value="704" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -112,7 +120,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build variables.go">
+  <component name="RunManager" selected="Go Build.go build constants.go">
+    <configuration name="go build constants.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goPractice" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/constants.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
     <configuration name="go build hello_world.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goPractice" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -141,9 +157,11 @@
       <item itemvalue="Go Build.go build hello_world.go" />
       <item itemvalue="Go Build.go build mapPractice.go" />
       <item itemvalue="Go Build.go build variables.go" />
+      <item itemvalue="Go Build.go build constants.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build constants.go" />
         <item itemvalue="Go Build.go build variables.go" />
         <item itemvalue="Go Build.go build mapPractice.go" />
         <item itemvalue="Go Build.go build hello_world.go" />
@@ -151,7 +169,7 @@
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-33" y="271" width="748" height="530" extended-state="0" />
+    <frame x="-26" y="187" width="748" height="563" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19891009" />
@@ -159,7 +177,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47517732" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.12938596" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -203,9 +221,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/constants.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/variables.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
+        <state relative-caret-position="278">
           <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
