@@ -7,6 +7,6 @@ func sum(a int,nums ...int){
 }
 
 func main(){
-	
+
 	sum(1,[]int{1,2,3}...)
 }
